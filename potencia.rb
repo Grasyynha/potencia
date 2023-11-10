@@ -2,8 +2,8 @@
 numeros = []
 
 # Solicita ao usuário que insira 3 números
-for i in 1..3 do
-  puts "Digite o número #{i}: "
+for n in 1..3 do
+  puts "Digite o número #{n}: "
   numero = gets.chomp.to_i
   numeros << numero
 end
